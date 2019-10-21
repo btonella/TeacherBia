@@ -1,0 +1,50 @@
+---
+title: Lista de exercícios 1
+layout: post
+categories: [Tech]
+---
+
+Oi gente!
+
+Hoje vamos treinar os nossos conceitos de <strong>movimentação</strong> e <strong>rotação</strong> no Scratch, então tentem resolver os exercícios abaixo e tragam na próxima aula!!
+
+
+<h1><span style = "color:#d2232b; font-weight:bold"><center>Movimentação</center></span></h1><br>
+
+### Exercício 1
+
+<img src="/assets/images/exmov1.png"/><br>
+
+### Exercício 2
+
+<img src="/assets/images/exmov2.png"/><br>
+
+### Exercício 3
+
+Veja a imagem abaixo e descreva o que este código vai fazer!
+
+<img src="/assets/images/exmov3.png"/><br>
+
+### Exercício 4
+
+Veja a imagem abaixo e descreva o que este código vai fazer! <strike>(de novo)</strike>
+
+<img src="/assets/images/exmov4.png"/><br>
+
+### Exercício 5
+
+<img src="/assets/images/exmov5.png"/><br>
+
+
+<h1><span style = "color:#d2232b; font-weight:bold"><center>Rotação</center></span></h1>
+
+Você lembra bem como funciona a rotação dos personagens no Scratch? Vou deixar uma dica abaixo!
+
+<img src="/assets/images/exmov6.png"/><br>
+
+Agora que você já tem um dica muito boa, que tal um último exercício?
+
+<img src="/assets/images/exmov7.png"/><br>
+
+
+Se você ficou com alguma dúvida me avise ☺

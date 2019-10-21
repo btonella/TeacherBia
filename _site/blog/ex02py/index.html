@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RPG</title>
+  <meta name="description" content="Agora que vocês já fizeram alguns exercícios e já sabem o básico de Python (espero né), podemos começar a fazer algo mais elaborado.Primeira pergunta importa...">
+
+  <link rel="stylesheet" href="/assets/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="http://0.0.0.0:8080/blog/ex02py/">
+  <link rel="alternate" type="application/rss+xml" title="Teacher Bia" href="http://0.0.0.0:8080/feed.xml">
+  <script src="/assets/js/jquery-1.8.2.min.js" | prepend: site.baseurl }}"></script>
+  <script src="/assets/js/jPages.js" | prepend: site.baseurl }}"></script>
+  <script src="/assets/js/script.js" | prepend: site.baseurl }}"></script>
+  <script src="/assets/js/snap.svg-min.js" | prepend: site.baseurl }}"></script>
+  <script src="/assets/js/svg-animation.js" | prepend: site.baseurl }}"></script>
+  <script defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+  
+  <body>
+	
+	<div class="main-wrapper">
+		<header id="header">
+  <div class="wrapper">
+    <nav>
+      
+        <a href=" /">Home</a>
+        <a href=" /blog ">Turmas</a>
+        <a href=" /projetos">Projetos</a>
+        <a href= "" ><i class="fa fa-rss" aria-hidden="true"></i></a>
+      
+    </nav>
+  </div>
+</header>
+
+		<section id="banner">
+    <div class="wrapper">
+	    <svg id="ice-bear" xmlns="http://www.w3.org/2000/svg"  version="1.1" width="100%" height="100%" viewBox="0 0 800 400">
+		
+            <g id="welcom-text" style="text-shadow: 1px 1px #EFEFEF, 2px 2px #ccc">
+                <text x="50" y="130" fill="#ed5565" font-size="100">W</text>
+                <text x="160" y="180" fill="#f4b350" font-size="100">E</text>
+                <text x="230" y="140" fill="#f2db94" font-size="130">L</text>
+                <text x="310" y="160" fill="#62ddbd" font-size="100">C</text>
+                <text x="400" y="160" fill="#62B3E5" font-size="90">O</text>
+                <text x="480" y="160" fill="#ec87c0" font-size="120">M</text>
+                <text x="600" y="160" fill="#b3aeef" font-size="100">E</text>
+            </g>
+            <g id="bear-head" fill="white">
+                <circle r="20" cx="380" cy="310"/>
+                <circle r="20" cx="500" cy="310"/>
+                <path d="M 360 400 V 355 A30 30 0 0 1 520 360 V 400"/>
+                <circle r="5px" cx="410" cy="330" fill="black"/>
+                <circle r="5px" cx="470" cy="330" fill="black"/>
+                <ellipse rx="15" ry="10" cx="440" cy="340" fill="black"/>
+                <path d="M 430 360 Q 440 370 450 360" stroke="black" stroke-width="2"/>
+            </g>
+            <g id="bear-paw-left">
+                <path d="M 305 410 V 300 A30 30 0 0 1 365 310 V 410"fill="white" stroke="#C4E8F8" stroke-width="1px"/>
+                <g fill="#62B3E5">
+                    <circle r="5" cx="315" cy="305"/>
+                    <circle r="5" cx="355" cy="305"/>
+                    <circle r="5" cx="327" cy="295"/>
+                    <circle r="5" cx="343" cy="295"/>
+                    <ellipse rx="15" ry="10" cx="335" cy="320"/>
+                </g>
+                <!--<animateTransform attributeName="transform" begin="0s" dur="3s" type="rotate" values="-14 340 400;15 340 400;-15 340 400" repeatCount="indefinite"/>-->
+            </g>
+            <g id="sea">
+                <path d="M 60 400 C 70 360 150 360 160 400 C 170 360 250 360 260 400 C 270 360 350 360 360 400 C 370 360 450 360 460 400 C 470 360 550 360 560 400 C 570 360 650 360 660 400 C 670 360 750 360 760 400 Z"  fill="#62B3E5"/>
+            </g>
+            <g id="bear-paw-right">
+                <path d="M 515 440 V 380 A30 30 0 0 1 575 390 V 440"fill="white" stroke="#C4E8F8" stroke-width="1px" transform="rotate(20, 575 390)"/>
+            </g>
+        </svg>
+    </div>
+</section>
+
+			<section style="padding-bottom: 0">
+		<article class="wrapper">
+			<div class="post-header">
+			<h2 class="red-title" >RPG</h2>
+			<ul class="tags">
+				
+			</ul>
+			<div class="line-highlight">21 Mar 2018</div>
+			</div>
+			<div class="post-content">
+				<p>Agora que vocês já fizeram alguns exercícios e já sabem o básico de Python <strike>(espero né)</strike>, podemos começar a fazer algo mais elaborado.
+<br /></p>
+
+<p>Primeira pergunta importante, vocês sabem o que é um RPG?
+Para quem não sabe, é um tipo de jogo.</p>
+
+<p>Para fazê-lo usaremos <strong>TUDO</strong> o que já aprendemos até agora.</p>
+
+<h3 id="universo-do-seu-jogo">Universo do seu jogo</h3>
+
+<p>Precisamos pensar em onde o nosso jogo irá se passar, por exemplo:</p>
+<ul>
+  <li>Época medieval</li>
+  <li>Steampunk</li>
+  <li>História conhecida (ex: Harry Potter, Cavaleiros do Zodíaco, Hobbit, etc.)</li>
+  <li>Futurista</li>
+  <li>Vampiro<br />
+Entre outros</li>
+</ul>
+
+<p>Depois de escolhido o universo onde o seu RPG irá se passar, você precisa estudar sobre ele, pois não adianta nada você escolher um universo, se não conhece nada dele.</p>
+
+<h3 id="divisão-de-personagens">Divisão de personagens</h3>
+
+<p>Os personagens do seu jogo podem ser dividos por classes. Caso o seu jogo seja medieval, você poderá ter:</p>
+<ul>
+  <li>Mago</li>
+  <li>Curandeiro</li>
+  <li>Arqueiro</li>
+  <li>Guerreiro<br />
+Entre outros</li>
+</ul>
+
+<p>Lembrando que cada classe terá: HP (vida), XP (experiência), AP (mana/vigor) e uma arma específica.</p>
+
+<p>Este é o momento onde você terá que decidir se cada classe terá uma história diferente ou se as classes só irão fazer diferença nas batalhas. Meu conselho é que por enquanto a história seja a mesma para todos e depois eu mostro para vocês como fazer um RPG com histórias separadas.</p>
+
+<h3 id="sistema-de-batalha">Sistema de batalha</h3>
+
+<p>Para que ocorra uma batalha no nosso jogo, usaremos uma função com uma chance de acerto já definida (Caso você escolha ter uma classe de Ladrão, podemos fazer essa chance ser alterável).
+Como ela funcionará?
+Teremos um valor aleatório entre 1 e 10, onde caso esse valor seja menor do que 6 (entre 1 e 5) você tomará um dano no inimigo, mas caso esse valor seja maior você inflingirá um dano no inimigo.
+Por enquanto só o nosso personagem terá uma vida, ou seja, os inimigos irão morrer com um só hit.</p>
+
+<h3 id="história">História</h3>
+
+<p>A história inteira do jogo será feita por vocês, irei fazer em aula uma <i>base</i> que irá valer para todos, mas é claro que vocês vão poder alterá-la.
+A história principal do jogo deve ser desenvolvida em casa, para que em aula nós possamos focar somente na jogabilidade em si.</p>
+
+<p><br />
+Caso alguém tenha perdido alguma parte da base que fizemos em aula, elas estão online!</p>
+
+<p><a href="https://repl.it/@btonella/RPG">Clique aqui para ver a base igual da aula</a></p>
+
+<p><a href="https://repl.it/@btonella/RPG-2">Clique aqui para ver a base com histórias diferentes para cada personagem</a></p>
+
+<p><br />
+Qualquer dúvida me mandem e-mail ou mensagem no grupo!
+☺</p>
+
+			</div>
+			
+<div class="post-pagination">
+  
+  <a href="/blog/ex01py/" class="btn-pagination prev" title="Lista de Exercícios 1
+"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Prev</a>
+  
+  
+  <a href="/blog/DIY/" class="btn-pagination next" title="Faça Você Mesmo
+">Next <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+  
+</div>
+
+			
+<div style="margin-top:30px">
+    <a href="https://twitter.com/intent/tweet?text=http://0.0.0.0:8080/blog/ex02py/" class="share-btn twitter-btn" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=http://0.0.0.0:8080/blog/ex02py/" class="share-btn googleplus-btn" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://0.0.0.0:8080/blog/ex02py/" class="share-btn facebook-btn" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i></a>
+    <!--<a href="http://v.t.sina.com.cn/share/share.php?title=http://0.0.0.0:8080/blog/ex02py/" class="share-btn weibo-btn" title="Share on Sina Weibo"><i class="fa fa-fw fa-weibo" aria-hidden="true"></i></a>-->
+</div>
+
+
+		</article>
+	</section>
+	<section id="comments">
+    <div class="wrapper">
+        <div class="line-highlight"><i class="fa fa-paw" aria-hidden="true"></i></div>
+		
+		
+       	
+        
+        
+		
+    </div>
+</section>
+
+		
+		<footer id="footer">
+  <div class="footer-border"></div>
+  <div class="footer-content">
+    <div class="social-wrapper text-center">
+      <ul class="social-lists">
+        <li><a class="social-btn btn-white" href="mailto:beatriz.tonella@gmail.com" target="_blank" rel="noopener noreferrer" title="Mail me"><i class="fa fa-fw fa-envelope"></i></a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+    <div class="copyright text-center">Copyright © 2018 Bia. Powered by Jekyll.</div>
+  </div>
+  <div id="top" class="btn-top" style="display:none">
+    <a href=" #header "><i class="fa fa-paw" aria-hidden="true"></i></a>
+  </div>
+</footer>
+	</div>
+	
+  </body>
+  <!-- Google analytics -->
+
+
+<!-- Baidu analytics -->
+
+
+</html>

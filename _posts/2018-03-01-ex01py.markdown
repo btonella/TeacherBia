@@ -1,0 +1,36 @@
+---
+title: Lista de Exercícios 1
+layout: post
+categories: [Life]
+---
+
+Agora que já configuramos o Python, podemos já fazer alguns exercícios de fixação.
+
+Antes de mais nada, vamos fazer um teste sobre o que você já sabe:
+
+[Primeiro Teste de Python](https://goo.gl/KAMn4Q)
+
+Com esse teste conseguiremos saber como melhor formar nossas aulas.
+
+### Exercício 01
+Escreva um programa que recebe um número digitado pelo usuário e imprime na tela se ele é par ou impar.
+
+> Conceitos trabalhados: condicionantes e entrada pelo usuário saida de dados.
+
+### Exercício 02
+Faça um jogo que pedra papel e tesoura que rode no terminal. Para isso você precisará de dois jogadores e salvar suas opções.
+
+> Conceitos Trabalhados: condicionantes, loops infinitos, entrada de dados, condição de parada, saida de dados.
+
+### Exercício 03
+Escreva um programa que faça as seguintes operações da calculadora:
+
+- Soma<br>
+- Subtração<br>
+- Multiplicação<br>
+- Divisão<br>
+- Exponenciação<br>
+- Fatorial<br>
+- Primalidade (i.e. se é primo ou não <strong>Para numeros < 100</strong> )
+
+> Conceitos Trabalhados: condicionantes, loops, loops infinitos, entrada de dados, condição de parada, saida de dados.

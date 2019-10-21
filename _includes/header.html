@@ -1,0 +1,17 @@
+<header id="header">
+  <div class="wrapper">
+    <nav>
+      {% if page.nav != 'home' %}
+        <a href=" /">Home</a>
+        <a href=" /blog ">Turmas</a>
+        <a href=" /projetos">Projetos</a>
+        <a href= "" ><i class="fa fa-rss" aria-hidden="true"></i></a>
+      {% else %}
+        <a href=" # ">Home</a>
+        <a href=" #about ">Contato</a>
+        <a href=" /blog ">Turmas</a>
+        <a href=" /projetos">Projetos</a>
+      {% endif %}
+    </nav>
+  </div>
+</header>

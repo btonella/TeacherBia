@@ -1,0 +1,54 @@
+---
+title: ASCII Art
+layout: post
+categories: [Life]
+---
+
+Os RPGs de vocês já estão ficando muito bom, mas que tal se pudessemos colocar algo mais visível nele, sem ainda usarmos uma interface gráfica?
+Seria legal e fácil de fazer ;)
+
+### O que é a ASCII Art?
+
+É uma forma artística utilizando apenas caracteres. Vamos ver um exemplo que vai ficar mais fácil de entender.
+Que tal um gato simples?
+
+<pre>
+ /\_/\
+( o.o )
+ > ^ < 
+</pre>
+
+ 
+Ou que tal um gato em uma bicicleta?
+
+<pre>
+                 ________________
+                |                |_____    __
+                |      OLAR!     |     |__|  |_________
+                |________________|     |::|  |        /
+   /\**/\       |                \.____|::|__|      <
+  ( o_o  )_     |                      \::/  \._______\
+   (u--u   \_)  |
+    (||___   )==\
+  ,dP"/b/=( /P"/b\
+  |8 || 8\=== || 8
+  `b,  ,P  `b,  ,P
+    """`     """`
+
+</pre>
+
+
+Existem muitos tipos de ASCII Arts que podemos ver, vejam esses links e se divirtam deixando o seu RPG mais bonito!
+
+[Gerador de textos](http://patorjk.com/software/taag/)
+
+[Imagens 1](https://www.asciiart.eu/)
+
+[Imagens 2](http://www.asciiworld.com/)
+
+
+
+
+<br>
+Qualquer dúvida me mandem e-mail ou mensagem no grupo!
+☺

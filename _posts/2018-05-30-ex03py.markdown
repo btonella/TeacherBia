@@ -1,0 +1,19 @@
+---
+title: Listas de Exercícios
+layout: post
+categories: [Life]
+---
+
+Hoje dedicaremos o nosso tempo para resolvermos algumas listas de exercícios, caso não consigam termina-lá na aula de hoje continuem em casa.
+
+### Lista 1
+
+<iframe src="/assets/pdfs/Lista1.pdf" width="600" height="900" style="border: none;"></iframe>
+
+<br><br>
+### Lista 2
+
+<iframe src="/assets/pdfs/Lista2.pdf" width="600" height="900" style="border: none;"></iframe>
+<br>
+
+Boa sorte! ☺

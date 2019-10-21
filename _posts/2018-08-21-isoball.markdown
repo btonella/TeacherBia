@@ -1,0 +1,14 @@
+---
+title: Isoball
+layout: post
+categories: [Kids]
+---
+
+<div>
+
+	<p style="text-align: center;">
+		<embed height="480" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="/GamesKids/isoball.swf" type="application/x-shockwave-flash" width="640">
+	</p>
+
+	
+</div>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  
+  <body>
+	
+	<div class="main-wrapper">
+		{% include header.html %}
+		
+		<div style="height: 30px; background: #C4E8F8"></div>
+		
+		{{content}}
+		{% if !page.comment %}
+			{% include comments.html %}
+		{% endif %}
+		{% include footer.html %}
+	</div>
+	
+  </body>
+  {% include analytics.html %}
+</html>

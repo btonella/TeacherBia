@@ -1,0 +1,56 @@
+---
+title: Faça Você Mesmo
+layout: post
+categories: [Tech]
+---
+
+Hoje nós faremos uma aula <strong>especial</strong> de Scratch!
+
+Vocês vão precisar ler um texto sobre cada personagem e descobrir o que vocês devem fazer nas suas programações, então vamos lá.
+
+O jogo vai ficar mais ou menos assim:
+
+<img src="/assets/images/DIY1.png"/>
+
+Então desenhem um fundo parecido com esse da imagem e adicione os seguintes sprites:
+
+- <span style = "color:#d2232b; font-weight:bold">Sprite 1</span>: Bat (Morcego)
+- <span style = "color:#bc8ec1; font-weight:bold">Sprite 2</span>: Ball (Bola)
+- <span style = "color:#0f9847; font-weight:bold">Sprite 3</span>: Um triângulo (Desenhado por você e renomeie para "Obstaculo")
+
+Crie duas variáveis com os nomes: <i>"pontos"</i> e <i>"velocidade"</i>
+
+Agora vamos para a <strong>programação</strong>! <br><br><br>
+
+
+<img src="/assets/images/DIY2.png"/>
+
+O <span style = "color:#d2232b; font-weight:bold">Sprite 1</span> deve estar <span style = "color:#efbd21; font-weight:bold">sempre</span> <span style = "color:#243f8e; font-weight:bold">caindo -2</span>, mas caso o jogador aperte a <span style = "color:#4db4e4; font-weight:bold">tecla espaço</span>, ele deve <span style = "color:#243f8e; font-weight:bold">subir 5</span>. Deve existir uma movimentação com as <span style = "color:#4db4e4; font-weight:bold">setas direita e esquerda</span>,
+sendo ela por <span style = "color:#243f8e; font-weight:bold">5 pixels</span>.
+
+Caso o <span style = "color:#d2232b; font-weight:bold">Sprite 1</span> toque no <span style = "color:#0f9847; font-weight:bold">Sprite 3</span> o jogo deve <span style = "color:#efbd21; font-weight:bold">parar</span>.
+
+A <span style = "color:#f8992c; font-weight:bold">pontuação</span> deve iniciar com 0 e <span style = "color:#efbd21; font-weight:bold">sempre</span> que passar <span style = "color:#efbd21; font-weight:bold">1 segundo</span> ela deve aumentar gradativamente.
+
+<br><br><img src="/assets/images/DIY3.png"/>
+
+O <span style = "color:#bc8ec1; font-weight:bold">Sprite 2</span> não pode estar <span style = "color:#8085c0; font-weight:bold">aparecendo</span> ao início do jogo, mas após <span style = "color:#efbd21; font-weight:bold">4 segundos</span> ela deve <span style = "color:#8085c0; font-weight:bold">aparecer</span> no meio da tela, encostado na borda direita.
+
+Assim que o <span style = "color:#bc8ec1; font-weight:bold">Sprite 2</span> aparecer ele <span style = "color:#efbd21; font-weight:bold">sempre</span> deve escolher para onde irá <span style = "color:#58b846; font-weight:bold">aleatóriamente</span> e se <span style = "color:#243f8e; font-weight:bold">mover</span> 3 pixels. Quando encostar no canto esquerdo da tela ele deve <span style = "color:#8085c0; font-weight:bold">sumir</span> da tela e só <span style = "color:#8085c0; font-weight:bold">aparecer</span> novamente após <span style = "color:#efbd21; font-weight:bold">4 segundos</span>.
+
+Caso o <span style = "color:#bc8ec1; font-weight:bold">Sprite 2</span> toque no <span style = "color:#d2232b; font-weight:bold">Sprite 1</span> devemos ganhar <span style = "color:#f8992c; font-weight:bold">5 pontos</span>, esconder o <span style = "color:#bc8ec1; font-weight:bold">Sprite 2</span> e ele deve voltar para a sua posição inicial.
+
+<br><br><img src="/assets/images/DIY4.png"/>
+
+Assim que o jogo for iniciado, o <span style = "color:#0f9847; font-weight:bold">Sprite 3</span> deve ter uma <span style = "color:#f8992c; font-weight:bold">velocidade de -5</span>.
+
+O <span style = "color:#0f9847; font-weight:bold">Sprite 3</span> <span style = "color:#efbd21; font-weight:bold">sempre</span> deve estar <span style = "color:#243f8e; font-weight:bold">apontando para a direita</span> e na posição <span style = "color:#243f8e; font-weight:bold">(256,-160)</span>, podendo ter um <span style = "color:#8085c0; font-weight:bold">tamanho</span> <span style = "color:#58b846; font-weight:bold">aleatório</span> entre 70 e 250, após isso ele deve criar um <span style = "color:#efbd21; font-weight:bold">clone</span> de si mesmo e <span style = "color:#efbd21; font-weight:bold">esperar</span> 0.3 segundos. Depois o <span style = "color:#0f9847; font-weight:bold">Sprite 3</span> deve estar <span style = "color:#243f8e; font-weight:bold">apontando para a esquerda</span> e na posição <span style = "color:#243f8e; font-weight:bold">(256,160)</span>, podendo ter um <span style = "color:#8085c0; font-weight:bold">tamanho</span> <span style = "color:#58b846; font-weight:bold">aleatório</span> entre 70 e 250, após isso ele deve criar um <span style = "color:#efbd21; font-weight:bold">clone</span> de si mesmo e <span style = "color:#efbd21; font-weight:bold">esperar</span> 0.3 segundos novamente.
+
+Os <span style = "color:#efbd21; font-weight:bold">clones</span> do <span style = "color:#0f9847; font-weight:bold">Sprite 3</span> <span style = "color:#efbd21; font-weight:bold">sempre</span> devem adicionar à sua <span style = "color:#f8992c; font-weight:bold">velocidade</span> em <span style = "color:#243f8e; font-weight:bold">x</span>, mas caso cheguem na borda esquerda da tela devem ser <span style = "color:#efbd21; font-weight:bold">excluídos</span> da cena.
+
+
+<br><br><br>
+
+Pronto, este é o nosso jogo. 
+
+Se você ficou com alguma dúvida me avise ☺

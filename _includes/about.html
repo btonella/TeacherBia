@@ -1,0 +1,17 @@
+<section id="about">
+    <div class="wrapper">
+        <div class="text-center">
+            <h1 class="blue-title">Contato</h1>
+	    <div class="avatar"></div>
+            <div class="content text-center">
+                <center>{{ site.author.about_me }}</center>
+            </div>
+            <div style="margin: 10px 0">
+                <a class="btn-primary btn-blue btn-left" href="mailto:{{ site.email }}" target="_blank">Meu e-mail</a>
+				{% if site.author.resume %}
+				<a class="btn-primary btn-blue btn-right" href="{{ site.author.resume }}" target="_blank">Voltar</a>
+				{% endif %}
+            </div>
+        </div>
+    </div>
+</section>
